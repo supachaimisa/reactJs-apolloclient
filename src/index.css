@@ -13,10 +13,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+::placeholder {
+  margin-left: 20px;
+}
 .product:hover {
   border: 1px  solid #FF5C00;
-  transform: scale(1.05);
+  /* transition-delay: 0.5ms ease; */
+  transform: translateY(-5px);
   transition: 0.7 ease;
+  
   z-index: 1000;
   
+}
+.div-search-bar{
+  
+}
+.search-bar{
+  border: none;
+  width: 600px;
+  height: 40px;
+  border-radius: 8px;
 }

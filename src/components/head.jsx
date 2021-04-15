@@ -22,10 +22,12 @@ const Head = () => {
     return (
         <div>
             <Navbar style={{ backgroundColor: "#FF5C00"  }} light expand="md">
-                <NavbarBrand href="/" style={{ verticalAlign: "text-top" , color: "white" }}> <FontAwesomeIcon icon={faShoppingBag} size="3x" />&nbsp; <span style={{ fontSize: "22pt" }}>Shoppae</span> </NavbarBrand>
+                <NavbarBrand href="/" style={{ verticalAlign: "text-top" , color: "white" }}> <FontAwesomeIcon icon={faShoppingBag} size="3x" />&nbsp;  </NavbarBrand>
+                <span style={{ fontSize: "22pt",  color: "white" }}>Shoppae</span>
                 <NavbarToggler onClick={toggle} />
                 <Collapse isOpen={isOpen} navbar style={{ color: "white" }}>
-                    <Nav className="mr-auto" navbar >
+                    <Nav navbar>
+                        
                         {/* <NavItem>
                             <NavLink href="/components/">Components</NavLink>
                         </NavItem>
@@ -50,6 +52,11 @@ const Head = () => {
                             </DropdownMenu>
                         </UncontrolledDropdown> */}
                     </Nav>
+                    <div className="div-search-bar mx-auto">
+                    <input className="search-bar"  type="email" name="" id="" placeholder="ค้นหา"/>
+                    {/* <button className="">xx</button> */}
+                    </div>
+                    
                     การแจ้งเตือน
                     &nbsp;
                     สมัครใหม่
