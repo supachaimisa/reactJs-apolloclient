@@ -57,6 +57,13 @@ const Head = () => {
                     {/* <button className="">xx</button> */}
                     </div>
                     
+                    <span
+                    style={{ cursor: "pointer" }}
+                    onClick={() => window.location = 'http://localhost:3001/'}
+                    >
+                        สำหรับแอดมิน
+                    </span>
+                    &nbsp;
                     การแจ้งเตือน
                     &nbsp;
                     สมัครใหม่

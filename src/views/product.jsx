@@ -123,7 +123,7 @@ const Product = () => {
                             &nbsp;
                         </div>
                         <div className="mt-5">
-                            การจัดส่ง
+                            ตัวเลือกสินค้า
                             &nbsp;
                             <span className="mt-2" style={{ fontSize : "12pt"  , padding : "5px" , border: "1px solid #AEAEAE" }}>
                                  Iphone11 pro
